@@ -1,0 +1,136 @@
+/*div * {
+
+	border: .5px solid red;
+	border-style: dashed;
+}*/
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('resources/Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: 'Raleway-meduim';
+    src: url('/site/resources/fonts/Raleway-Meduim.ttf');
+}
+@font-face {
+    font-family: 'Raleway-light';
+    src: url('/site/resources/fonts/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: 'Raleway-extralight';
+    src: url('/site/resources/fonts/Raleway-ExtraLight.ttf');
+}
+
+h3 {
+	font-family: 'Raleway-extralight';
+}
+
+h2 {
+	font-family: Raleway-extralight;
+	font-size: 2em;
+	padding-top: 1.5em;
+	padding-bottom: .5em;
+}
+
+h4 {
+	font-family: Raleway-light;
+	font-size: 2em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+h6 {
+	font-family: Raleway;
+	font-size: .9em;
+	padding-bottom: .5em;
+	color: #FFF;
+}
+
+p {
+	font-family: 'Raleway-extralight';
+	font-size: 1.3em;
+	color: #03070A;
+	padding-bottom: 1em;
+}
+
+.widewrapper {
+	width: 100%
+	z-index: 5;
+}
+
+.widewrapper > img {
+	width: 100%
+}
+
+.main-menu-container {
+	min-height: 75px;
+	background-color: #03070A;
+	border-bottom: 1px solid grey;
+	z-index: 5;
+}
+
+
+#menu-link1, #menu-link2, #menu-link3 {
+	color: #FFF;
+}
+
+#submenu-link1, #submenu-link2 {
+
+}
+
+.hover-menu-link {
+	font-size: 25px;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.active-menu-link {
+	color: #3a6bb8 !important;
+}
+
+#main-menu-logo {
+	display: none;
+	max-height: 50px;
+	padding-top: 18px;
+}
+
+#form-submenu {
+	margin-top: 2em;
+
+}
+
+#about-the-game {
+	min-height: 800px;
+}
+
+#main-form-reports {
+
+	display: none;
+}
+
+#main-content-frame {
+	
+}
+
+#google-form-student {
+	min-height: 1000px;
+	background-color: light-grey;
+}
+
+#google-form-teacher {
+	display: none;
+	min-height: 1000px;
+	background-color: grey;
+}
+
+#google-form-bugs {
+	position: relative;
+	display: none;
+}
+
+
+#footer {
+	background-color: #03070A;
+	border-top: 1px solid grey;
+}
+

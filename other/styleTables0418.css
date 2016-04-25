@@ -1,0 +1,25 @@
+.widewrapper {
+	width: 100%
+}
+
+.widewrapper > img {
+	width: 100%
+}
+
+@media only screen and (min-width: 1442px) {
+	.backgroundImage {
+		content: url("resources/allotropWideLarge.png")
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+ 	.backgroundImage {
+		content: url("resources/allotropWideMedium.png")
+	}
+ }
+
+@media only screen and (max-width: 735px) {
+    .backgroundImage {
+		content: url("resources/allotropWideSmall.png")
+	}
+}
