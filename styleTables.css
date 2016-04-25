@@ -11,15 +11,15 @@
 }
 @font-face {
     font-family: 'Raleway-meduim';
-    src: url('/site/resources/fonts/Raleway-Meduim.ttf');
+    src: url('resources/fonts/Raleway-Meduim.ttf');
 }
 @font-face {
     font-family: 'Raleway-light';
-    src: url('/site/resources/fonts/Raleway-Light.ttf');
+    src: url('resources/fonts/Raleway-Light.ttf');
 }
 @font-face {
     font-family: 'Raleway-extralight';
-    src: url('/site/resources/fonts/Raleway-ExtraLight.ttf');
+    src: url('resources/fonts/Raleway-ExtraLight.ttf');
 }
 
 h3 {
