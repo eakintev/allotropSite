@@ -72,6 +72,20 @@ jQuery(document).ready(function($) {
     }); 
 
 
+    $('#submenu-link1').mouseenter(function() {
+		$(this).addClass('submenu-hover');
+   	});
+   	$('#submenu-link1').mouseleave(function() {
+    	$(this).removeClass('submenu-hover');
+    }); 
+
+   	$('#submenu-link2').mouseenter(function() {
+		$(this).addClass('submenu-hover');
+   	});
+   	$('#submenu-link2').mouseleave(function() {
+    	$(this).removeClass('submenu-hover');
+    }); 
+
 
    	$('#submenu-link1').click(function(){
 		// $(this).addClass('active-menu-link');
@@ -79,6 +93,8 @@ jQuery(document).ready(function($) {
 		// $('#menu-link2').removeClass('active-menu-link');
 		$('#google-form-student').show();
 		$('#google-form-teacher').hide();
+		$(this).addClass('submenu-active');
+		$("#submenu-link2").removeClass('submenu-active');
 
 		$('html, body').animate({scrollTop: $('#main-form-reports').offset().top-75 }, 500);
 	});
@@ -89,6 +105,8 @@ jQuery(document).ready(function($) {
 		// $('#menu-link2').removeClass('active-menu-link');
 		$('#google-form-student').hide();
 		$('#google-form-teacher').show();
+		$(this).addClass('submenu-active');
+		$("#submenu-link1").removeClass('submenu-active');
 
 		$('html, body').animate({scrollTop: $('#main-form-reports').offset().top-75 }, 500);
 	});

@@ -35,9 +35,10 @@ h2 {
 
 h4 {
 	font-family: Raleway-light;
-	font-size: 2em;
+	font-size: 1.5em;
 	padding-top: .5em;
 	padding-bottom: .5em;
+	padding-right: .3em;
 }
 
 h6 {
@@ -52,6 +53,15 @@ p {
 	font-size: 1.3em;
 	color: #03070A;
 	padding-bottom: 1em;
+}
+
+.underlined {
+	text-decoration: underline; 
+}
+
+.info {
+	font-size: 1em !important;
+	padding-bottom: .5em;
 }
 
 .widewrapper {
@@ -75,10 +85,6 @@ p {
 	color: #FFF;
 }
 
-#submenu-link1, #submenu-link2 {
-
-}
-
 .hover-menu-link {
 	font-size: 25px;
 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
@@ -87,6 +93,15 @@ p {
 .active-menu-link {
 	color: #3a6bb8 !important;
 }
+
+.submenu-hover {
+	color: #3a6bb8 !important;
+}
+
+.submenu-active {
+	color: #1653b3 !important;
+}
+
 
 #main-menu-logo {
 	display: none;
