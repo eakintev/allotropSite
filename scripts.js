@@ -72,6 +72,7 @@ jQuery(document).ready(function($) {
     }); 
 
 
+
     $('#submenu-link1').mouseenter(function() {
 		$(this).addClass('submenu-hover');
    	});
@@ -86,27 +87,43 @@ jQuery(document).ready(function($) {
     	$(this).removeClass('submenu-hover');
     }); 
 
+   	$('#submenu-link3').mouseenter(function() {
+		$(this).addClass('submenu-hover');
+   	});
+   	$('#submenu-link3').mouseleave(function() {
+    	$(this).removeClass('submenu-hover');
+    });
+
 
    	$('#submenu-link1').click(function(){
-		// $(this).addClass('active-menu-link');
-		// $('#menu-link1').removeClass('active-menu-link');
-		// $('#menu-link2').removeClass('active-menu-link');
 		$('#google-form-student').show();
 		$('#google-form-teacher').hide();
+		$('#google-form-statistics').hide();
 		$(this).addClass('submenu-active');
 		$("#submenu-link2").removeClass('submenu-active');
+		$("#submenu-link3").removeClass('submenu-active');
 
 		$('html, body').animate({scrollTop: $('#main-form-reports').offset().top-75 }, 500);
 	});
 
    	$('#submenu-link2').click(function(){
-		// $(this).addClass('active-menu-link');
-		// $('#menu-link1').removeClass('active-menu-link');
-		// $('#menu-link2').removeClass('active-menu-link');
 		$('#google-form-student').hide();
 		$('#google-form-teacher').show();
+		$('#google-form-statistics').hide();
 		$(this).addClass('submenu-active');
 		$("#submenu-link1").removeClass('submenu-active');
+		$("#submenu-link3").removeClass('submenu-active');
+
+		$('html, body').animate({scrollTop: $('#main-form-reports').offset().top-75 }, 500);
+	});
+
+	$('#submenu-link3').click(function(){
+		$('#google-form-student').hide();
+		$('#google-form-teacher').hide();
+		$('#google-form-statistics').show();
+		$(this).addClass('submenu-active');
+		$("#submenu-link1").removeClass('submenu-active');
+		$("#submenu-link2").removeClass('submenu-active');
 
 		$('html, body').animate({scrollTop: $('#main-form-reports').offset().top-75 }, 500);
 	});

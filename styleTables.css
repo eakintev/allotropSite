@@ -140,6 +140,10 @@ p {
 	background-color: grey;
 }
 
+#google-form-statistics {
+	display: none;
+}
+
 #google-form-bugs {
 	position: relative;
 	display: none;
